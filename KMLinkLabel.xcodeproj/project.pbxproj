@@ -13,6 +13,7 @@
 		0E6DFC3A14E1159E003D8915 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DFC3414E1159E003D8915 /* AppDelegate.m */; };
 		0E6DFC3B14E1159E003D8915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E6DFC3514E1159E003D8915 /* InfoPlist.strings */; };
 		0E6DFC3D14E1159E003D8915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DFC3914E1159E003D8915 /* main.m */; };
+		0E6DFC5514E11775003D8915 /* KMLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DFC5414E11775003D8915 /* KMLinkLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0E6DFC3714E1159E003D8915 /* KMLinkLabel-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KMLinkLabel-Info.plist"; sourceTree = "<group>"; };
 		0E6DFC3814E1159E003D8915 /* KMLinkLabel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KMLinkLabel-Prefix.pch"; sourceTree = "<group>"; };
 		0E6DFC3914E1159E003D8915 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6DFC5314E11775003D8915 /* KMLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLinkLabel.h; sourceTree = "<group>"; };
+		0E6DFC5414E11775003D8915 /* KMLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLinkLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,7 @@
 		0E6DFC0C14E11523003D8915 = {
 			isa = PBXGroup;
 			children = (
+				0E6DFC4214E116F8003D8915 /* KMLinkLabel */,
 				0E6DFC3214E1159E003D8915 /* KMLinkLabelSample */,
 				0E6DFC1A14E11523003D8915 /* Frameworks */,
 				0E6DFC1814E11523003D8915 /* Products */,
@@ -80,6 +84,15 @@
 				0E6DFC3914E1159E003D8915 /* main.m */,
 			);
 			path = KMLinkLabelSample;
+			sourceTree = "<group>";
+		};
+		0E6DFC4214E116F8003D8915 /* KMLinkLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0E6DFC5314E11775003D8915 /* KMLinkLabel.h */,
+				0E6DFC5414E11775003D8915 /* KMLinkLabel.m */,
+			);
+			path = KMLinkLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 			files = (
 				0E6DFC3A14E1159E003D8915 /* AppDelegate.m in Sources */,
 				0E6DFC3D14E1159E003D8915 /* main.m in Sources */,
+				0E6DFC5514E11775003D8915 /* KMLinkLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +260,7 @@
 				0E6DFC3114E11523003D8915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
