@@ -14,6 +14,8 @@
 		0E6DFC3B14E1159E003D8915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E6DFC3514E1159E003D8915 /* InfoPlist.strings */; };
 		0E6DFC3D14E1159E003D8915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DFC3914E1159E003D8915 /* main.m */; };
 		0E6DFC5514E11775003D8915 /* KMLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DFC5414E11775003D8915 /* KMLinkLabel.m */; };
+		0E6DFC5914E11933003D8915 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DFC5714E11933003D8915 /* SampleViewController.m */; };
+		0E6DFC5A14E11933003D8915 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E6DFC5814E11933003D8915 /* SampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		0E6DFC3914E1159E003D8915 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E6DFC5314E11775003D8915 /* KMLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLinkLabel.h; sourceTree = "<group>"; };
 		0E6DFC5414E11775003D8915 /* KMLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLinkLabel.m; sourceTree = "<group>"; };
+		0E6DFC5614E11933003D8915 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		0E6DFC5714E11933003D8915 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		0E6DFC5814E11933003D8915 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 				0E6DFC3714E1159E003D8915 /* KMLinkLabel-Info.plist */,
 				0E6DFC3814E1159E003D8915 /* KMLinkLabel-Prefix.pch */,
 				0E6DFC3914E1159E003D8915 /* main.m */,
+				0E6DFC5614E11933003D8915 /* SampleViewController.h */,
+				0E6DFC5714E11933003D8915 /* SampleViewController.m */,
+				0E6DFC5814E11933003D8915 /* SampleViewController.xib */,
 			);
 			path = KMLinkLabelSample;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E6DFC3B14E1159E003D8915 /* InfoPlist.strings in Resources */,
+				0E6DFC5A14E11933003D8915 /* SampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +168,7 @@
 				0E6DFC3A14E1159E003D8915 /* AppDelegate.m in Sources */,
 				0E6DFC3D14E1159E003D8915 /* main.m in Sources */,
 				0E6DFC5514E11775003D8915 /* KMLinkLabel.m in Sources */,
+				0E6DFC5914E11933003D8915 /* SampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

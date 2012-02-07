@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SampleViewController.h"
 
 @implementation AppDelegate
 
@@ -22,6 +23,8 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    UIViewController *viewController = [[[SampleViewController alloc] initWithNibName:NSStringFromClass([SampleViewController class]) bundle:nil] autorelease];
+    self.window.rootViewController = viewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
